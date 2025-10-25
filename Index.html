@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senzz_13</title>
+  <style>
+    /* 🌍 Tampilan Dasar */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), 
+                  url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1400&q=80") 
+                  no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      line-height: 1.8;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.75);
+      text-align: center;
+      padding: 40px 10px;
+      font-size: 34px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #00ff80;
+      text-shadow: 0 0 10px #00ff80;
+      border-bottom: 2px solid #00ff80;
+    }
+
+    section {
+      background: rgba(0, 0, 0, 0.6);
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 1100px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 1s ease;
+    }
+
+    section.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: #00ff80;
+      border-bottom: 2px solid #00ff80;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 8px #00ff80;
+      font-size: 26px;
+    }
+
+    p {
+      text-align: justify;
+      flex: 1;
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    img {
+      border-radius: 12px;
+      width: 45%;
+      max-width: 480px;
+      height: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #00ff80;
+    }
+
+    footer {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 25px;
+      margin-top: 50px;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      color: #aaa;
+      border-top: 1px solid #00ff80;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+      h2 {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>⚽ PERKEMBANGAN & TAKTIK SEPAK BOLA ⚽</header>
+
+  <section>
+    <h2>Sejarah Sepak Bola Dunia</h2>
+    <div class="content">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.uBZW1lBn92bRNY7HbLs7LwHaEv?pid=Api&P=0&h=220" alt="Sejarah Sepak Bola">
+      <p>Sepak bola modern bermula di Inggris pada abad ke-19, saat berbagai permainan bola mulai disatukan dalam satu aturan resmi. Tahun 1863 menjadi tonggak penting ketika berdirinya The Football Association (FA), yang menetapkan aturan baku permainan sepak bola. Dari sana, sepak bola menyebar ke seluruh dunia dan menjadi olahraga paling digemari di hampir setiap negara, dengan berbagai kompetisi internasional yang memperkuat statusnya sebagai olahraga nomor satu di dunia.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Pengertian Sepak Bola</h2>
+    <div class="content">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.L1Lnb_xl-C7JyTusFUB3aAHaDt?pid=Api&P=0&h=220" alt="Pengertian Sepak Bola">
+      <p>Sepak bola adalah olahraga yang dimainkan oleh dua tim, masing-masing beranggotakan sebelas pemain, dengan tujuan mencetak gol ke gawang lawan. Permainan ini menuntut kerja sama tim, strategi, serta keterampilan teknis seperti dribbling, passing, dan shooting. Selain kekuatan fisik, sepak bola juga menonjolkan kecerdasan taktik serta semangat sportivitas.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Deretan Pemain Sepak Bola Dunia</h2>
+    <div class="content">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.-psRrmDLr1KEYryXKOGWQQHaEK?pid=Api&P=0&h=220" alt="Pemain Legendaris">
+      <p>Beberapa pemain legendaris dunia seperti <b>Lionel Messi</b>, <b>Cristiano Ronaldo</b>, <b>Zinedine Zidane</b>, <b>Ronaldinho</b>, dan <b>Kylian Mbappé</b> memberikan pengaruh besar terhadap sepak bola dunia. Messi dikenal sebagai maestro dribbling dan pencetak gol ulung dengan visi bermain yang luar biasa. Ronaldo terkenal karena kekuatan fisik dan konsistensinya di berbagai liga besar. Zidane dikenang sebagai gelandang elegan yang membawa Prancis juara dunia, Ronaldinho menjadi ikon kreativitas sepak bola, sementara Mbappé mewakili generasi baru dengan kecepatan dan insting tajam dalam mencetak gol.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Perkembangan Sepak Bola Dunia</h2>
+    <div class="content">
+      <img src="https://www.noice.id/wp-content/uploads/2022/11/Daftar-Juara-Piala-Dunia-Uruguay-1930.jpg" alt="Piala Dunia">
+      <p>Sepak bola berkembang dari permainan sederhana menjadi fenomena global yang menyatukan berbagai bangsa. Awalnya hanya dimainkan untuk hiburan rakyat, kini sepak bola menjadi ajang prestise dan simbol kebanggaan nasional. Kompetisi seperti <b>Piala Dunia</b> dan <b>Liga Champions</b> menjadi turnamen paling bergengsi yang mempertemukan pemain-pemain terbaik dunia. Selain itu, sepak bola juga berperan penting dalam membangun solidaritas sosial, memperkuat ekonomi olahraga, dan menginspirasi generasi muda untuk bermimpi besar.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Taktik dan Formasi Populer</h2>
+    <div class="content">
+      <img src="https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2025/04/28115528/PSG-Predicted-Line-up-v-Arsenal.jpg" alt="Formasi Sepak Bola">
+      <p>Dalam dunia sepak bola modern, formasi dan taktik menjadi elemen penting. Formasi seperti <b>4-3-3</b> menekankan keseimbangan antara serangan dan pertahanan, sementara <b>4-2-3-1</b> lebih fokus pada penguasaan bola dan kreativitas di lini tengah. Ada juga <b>3-5-2</b> yang memberi dominasi di lapangan tengah. Setiap pelatih memiliki filosofi tersendiri dalam menentukan formasi, disesuaikan dengan karakter pemain dan strategi menghadapi lawan.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kompetisi Eropa</h2>
+    <div class="content">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.Jf9uAQVRkhf8Ezt1yaHBEwHaEK?pid=Api&P=0&h=220" alt="Kompetisi Eropa">
+      <p>Kompetisi paling bergengsi di Eropa adalah <b>UEFA Champions League</b>. Klub tersukses sepanjang sejarah adalah <b>Real Madrid</b> dengan 15 gelar juara, diikuti oleh AC Milan, Bayern Munich, dan Liverpool. Pemenang baru yang menonjol adalah <b>Manchester City</b> yang meraih gelar perdananya pada musim 2022–23, menandai dominasi mereka dalam sepak bola modern Eropa.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kompetisi Level Dunia</h2>
+    <div class="content">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.vKq3IlJ20gwHDaJMAh5HQwHaFt?pid=Api&P=0&h=220" alt="Kompetisi Dunia">
+      <p>Turnamen paling bergengsi di dunia adalah <b>Piala Dunia FIFA</b>. Brasil menjadi negara dengan koleksi gelar terbanyak (5 kali juara), diikuti oleh Jerman dan Italia. Edisi terbaru pada tahun 2022 dimenangkan oleh <b>Argentina</b>, yang dipimpin oleh Lionel Messi, setelah mengalahkan Prancis melalui adu penalti dramatis. Piala Dunia bukan hanya kompetisi olahraga, tetapi juga perayaan budaya global yang menyatukan jutaan penggemar sepak bola dari seluruh dunia.</p>
+    </div>
+  </section>
+
+  <footer>© 2025 | Disusun oleh Qautsal | Semua hak cipta dilindungi.</footer>
+
+  <script>
+    // Animasi scroll muncul
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, { threshold: 0.2 });
+    sections.forEach(section => observer.observe(section));
+  </script>
+</body>
+</html>
